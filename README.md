@@ -4,3 +4,4 @@ My university final year Deep Learning Neural Network project which can answer q
 Run uit_test.py for console version.
 
 Run web_test.py for website version.
+URL for homepage is /home.
