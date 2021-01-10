@@ -1,0 +1,227 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+
+
+        {"tag": "hours",
+         "patterns": ["when uit open", "what are open hours", "when does uit open", "when does uit close", "when dose lectures start", "when do you open"],
+         "responses": ["UIT lectures start from 8:30am to 4:00pm"],
+         "context_set": ""
+        },
+
+
+        {"tag": "about_uit",
+         "patterns": ["what is uit", "what is university of information technology", "tell me about background information of uit", "tell me about uit", "when was uit founded"],
+         "responses": ["The University of Computer Studies, Yangon was firstly known as UCC in 1971 but it changed into the Institute of Computer Science and Technology (ICST) in 1988. On 1stJuly, 1998, it became the University of Computer Studies, Yangon. There are altogether 25 Computer Universities around the country. The University of Computer Studies (Bahan Campus) was separately established on 3rd December,2012, as the Center of Excellence to produce the competent computer professionals and specialists who can carry out effectively for the sake of human society and natural environment for the development of human resources in ICT sector. The University has been officially renamed as the University of Information Technology (UIT) since 15 th April, 2015. The University of Information Technology produces about 200 Undergraduate students every year. It also offers Undergraduate and Post-graduate courses for Bachelor, Diploma, Master and Doctorate level students in a wide range of subject areas: software engineering, high performance computing, business information system, communication and networking, embedded system and computer system technology. UIT is the main center of Research in ICT that can promote the productivity and the standard of living of the nation."],
+         "context_set": ""
+        },
+        {"tag": "motto",
+         "patterns": ["Tell me motto of uit", "what is motto for uit", "about motto of uit", "what is motto"],
+         "responses": ["\"Towards a Brighter Future through Innovation in ICT\" "],
+         "context_set": ""
+        },
+        {"tag": "vision",
+         "patterns": ["can you tell me the vision of uit", "what is vision for uit", "what is vision of university", "what is vision"],
+         "responses": ["To be a leading local and international research-based university "],
+         "context_set": ""
+        },
+        {"tag": "rector",
+         "patterns": ["who is the rector", "who is the head of uit", "saw sanda aye"],
+         "responses": ["Dr Saw Sanda Aye is the rector of UIT"],
+         "context_set": ""
+        },
+
+
+        {"tag": "admission requirement",
+         "patterns": ["can you tell me admission requirements", "how do i apply for uit", "how to join uit", "what do you need to join uit", "how to apply", "i want to join"],
+         "responses": ["The students are to get at least 450 marks in the Matriculation Examination to apply to the UIT. The candidates from Myanmar are applicable to join this university. The time to join this university is in December. The annual student intake is  200 students \n\nThe basic requirements are :\n\n    4 Photographs of the Applicant\n    Copies and the original of NRC of the applicant and copies of parents' NRC\n    Copy and Original of Matriculation Exam Mark Receipt\n "],
+         "context_set": ""
+        },
+        {"tag": "annual student intake",
+         "patterns": ["how many students does uit accept each year", "what are the number of students uit accept each year", "how many students do you take"],
+         "responses": ["The annual student intake is 200 students"],
+         "context_set": ""
+        },
+        {"tag": "degree programs",
+         "patterns": ["what are degree programs of uit", "what does uit offer", "Undergraduate Program", "Graduate Program", "Computer technology", "computer science", "doctor degree", "master degree","post graduate diploma"],
+         "responses": ["The University of Information Technology offers undergraduate and postgraduate courses for bachelor's, diploma, master's, and doctoral level students in a wide range of subject areas: \n\nUndergraduate Program\n\n    (I).Computer Science\n\n    (1).B.C.Sc.(Software Engineering)\n    (2).B.C.Sc.(Business Information Systems)\n    (3).B.C.Sc.(Knowledge Engineering)\n    (4).B.C.Sc.(High Performance Computing) \n\n(II).Computer Technology\n\n    (1).B.C.Tech.(Embedded Systems)\n    (2).B.C.Tech.(Communication and Networking)\n    (3).B.C.Tech.(Computer Systems)\n \nGraduate Program \n\n (I)Doctor Degree Program\n    (II).Master Degree Program\n        (i).Computer Science\n            (1).M.C.Sc.(Software Engineering)\n            (2).M.C.Sc.(Business Information Systems)\n            (3).M.C.Sc.(Knowledge Engineering)\n            (4).M.C.Sc.(High Performance Computing) \n        (ii).Computer Technology\n            (1).M.C.Tech.(Embedded Systems)\n            (2).M.C.Tech.(Communication and Networking)\n    (III).Post Graduate Program\n        (1).Post Graduate Diploma in Web Engineering\n        (2).Post Graduate Diploma in Network Engineering\n"],
+         "context_set": ""
+        },
+
+        {"tag": "majors",
+         "patterns": ["how many majors are there", "what are the majors", "specialized majors", "what does uit teach", "what do you teach", "tell me about majors"],
+         "responses": ["The University of Information Technology offers undergraduate and postgraduate courses for bachelor's, diploma, master's, and doctoral level students in a wide range of subject areas: \nsoftware engineering, high performance computing, business information system, communication and networking, embedded systems and computer systems technology. "],
+         "context_set": ""
+        },
+        {"tag": "se",
+         "patterns": ["Tell me about software engineering major", "Tell me about SE major", "What are the careers of software engineers se", "tell me about software engineering", "what is se", "what is software engineering", "what do you teach in software engineering se major"],
+         "responses": ["Software Engineering focuses on software development and goes beyond programming from design to development, testing to troubleshooting, to create systems software or applications that behave reliably and efficiently, are affordable to develop and maintain, satisfy all the requirements that customers have defined for them. SE programs generally expect students to focus on problem modeling and analysis,software design,software verification and validation,software quality, software process, software management, etc. \n\nCareer\n\n    Software Engineers\n    Project Manager\n    System Analysts\n    Software Developer / Programmer\n    Software Tester\n    Technical Support\n    Middle ware Analyst\n"],
+         "context_set": ""
+        },
+        {"tag": "bis",
+         "patterns": ["Tell me about business information systems major", "Tell me about BIS major", "What are the careers of business information systems bis major", "can you tell me about business information systems bis major subject", "what is bis", "what is business intelligence system", "what do you teach in business intelligence system bis major"],
+         "responses": ["he Business Information Systems (BIS) focus on\n\n    a solid foundation in business administration\n    defined as systems integrating information technology, people and business.\n    BIS brings business functions and information modules together for establishing effective communication channels which are useful for making timely and accurate decisions and in turn contribute to organizational productivity and competitiveness.\nCareer\n\n    Business Process Analyst\n    Project Manager\n    System Analysts\n    IT Consultant\n    Information System Manager\n    Quality Control managers\n    Application Engineers and more\n"],
+         "context_set": ""
+        },
+        {"tag": "ke",
+         "patterns": ["Tell me about knowledge engineering major","Tell me about KE major", "What are the careers of knowledge engineers ke", "can you tell me about knowledge engineering ke subject major", "what is ke major", "what is knowledge engineering major", "what do you teach in knowledge engineering ke major"],
+         "responses": ["KE is an engineering discipline that involves integrating knowledge into computer systems. The main subjects to study in Knowledge Engineering are:\n\n    Robotic\n    Linguistics : Knowledge Engineering for NLP\n    Semantic Web and Ontology Engineering\n    Logic Programming (Prolog)\n    Agents Programming (Aglets/JADE)\n\nCareer\n\n    Search Engine & Game Developer\n    Knowledge Architect\n    Expert & Robitic System Developer\n    Linguistics Experts\n    Computer Graphic System Developer\n    Simulator System Developer\n"],
+         "context_set": ""
+        },
+        {"tag": "hpc",
+         "patterns": ["Tell me about High Performance Computing major", "Tell me about hpc major", "What are the careers of High Performance Computing", "can you tell me about High Performance Computing", "what is hpc", "what is high performance computing", "what do you teach in high performance computing hpc major"],
+         "responses": [" High Performance Computing (HPC) is defined as High Throughput Computing , Many-task-computing.\nProfessional Experts Field in HPC\n\n    High Performance Computing\n    Distributed System and Distributed Programming\n    Mobile and Ubiquitous Computing\n    Computer Network and Management\nCareer\n\n    IT Engineers in Data Center (Infrastructure , Software and Service)\n    Mobile System Developer (in the Cloud)\n    HPC Application Developers for Applied areas\n    IT Architect on HPC System (Software and Infrastructure)\n    Cluster, Grid and Cloud Computing\n    Datacenter Networking and the New Converged Internet\n"],
+         "context_set": ""
+        },
+        {"tag": "es",
+         "patterns": ["Tell me about embedded systems major", "Tell me about es major", "What are the careers of embedded systems es", "can you tell me about embedded systems","what is es", "what is embedded system", "what do you teach in embedded system es major"],
+         "responses": ["Embedded System specialization program encompasses the study of hardware, software, and systems questions that arise in the design, development, and application of computers and embedded systems. Specifically, computer technology students specialized in Embedded System will have a knowledge of hardware systems (electrical networks, electronics, and VLSI); a knowledge of software systems (algorithms, data structures, and operating systems); and a knowledge of how these two domains interact (digital logic, signal and system theory, computer architectural and performance analysis). Embedded System students will learn about everything that goes into digital and computing systems, to CMOS VLSI design, to computer architecture, to programming, and from operating systems to compiler and language theory. \n\nCareer\n\n    System Engineer\n    System Validation Firmware Design Engineer\n    System Software Engineer\n    Application Software Engineer\n    Firmware Engineer\n    Application Engineer\n    Security and Firmware Architect\n    Embedded Firmware Architect\n"],
+         "context_set": ""
+        },
+        {"tag": "cn",
+         "patterns": ["Tell me about communication and networking major", "Tell me about cn major", "What are the careers of communication and networking cn", "Tell me about communication and networking", "can you tell me about networking major", "what is cn", "what is communication and networking", "what do you teach in communication and networking cn major"],
+         "responses": ["Computer Networking students gain extensive knowledge and experience in designing, constructing, analyzing, and securing networks. Topics in electronics, microprocessors, network/computer hardware, operating systems, signaling, and software are presented throughout the program. It covers the fundamentals of computer hardware and software as well as advanced concepts such as security, networking. It provides a comprehensive overview of enterprise-level networking concepts, including advanced routing, switching, and troubleshooting. To ensure that graduates are optimally prepared, courses extend into the most current and specialized technologies. \n\nCareer\n\n    IT Manager\n    IT Engineer\n    Management Consulting\n    Network Analyzer\n    Telecommunication Engineer\n    Networking professionals\n    Network Expert\n"],
+         "context_set": ""
+        },
+        {"tag": "cs",
+         "patterns": ["Tell me about computer systems major", "Tell me about cs major", "What are the careers of computer systems cs", "can you tell me about computer systems","what is cs", "what is computer systems", "what do you teach in computer systems cs major"],
+         "responses": ["The objective of B.C.Tech. (Computer System) is to prepare graduates with the skills necessary to enter careers in the design, application, development, implementation, and support of computer systems. Computer System specialization focuses on the knowledge of engineering, mathematical analysis and computer science to develop, test and evaluate circuits, software, personal computers and more. The most important destination is not simply to engineer computer technology, but to understand how that technology fits into the larger scheme of the professional and personal needs. Coursework will cover topics such as software design, electronic circuits, communication and technology integration. \n\nCareer\n\n    Computer Systems Administrator\n    Computer Systems Analyst\n    Computer Technician\n    System Software Engineer\n    Computer Application Engineer\n    Computer Hardware Engineer\n    Security and Firmware Architect\n"],
+         "context_set": ""
+        },
+
+        {"tag": "how long for graduate program",
+         "patterns": ["how long will it take for graduate program", "how many years does it take to get degree", "how many years do i have to study"],
+         "responses": ["It will take five years to get a Bachelor's Degree"],
+         "context_set": ""
+        },
+        {"tag": "number of students",
+         "patterns": ["How many students are there in uit", "number of students"],
+         "responses": ["Current, there are over one thousand students."],
+         "context_set": ""
+        },
+
+
+        {"tag": "faculties",
+         "patterns": ["what are faculties of uit", "What are departments of uit", "how many departments are there", "tell me about faculties", "who are teachers of uit", "who are professors of uit", "who are faculty members of uit"],
+         "responses": [" According to the Degrees offered, the departments of the University of Information Technology are organized as the following :\nAcademic Faculties\n\n    Faculty of Computer Science\n    Faculty of Computer Systems and Technologies\n    Faculty of Computing\n    Faculty of Information Science\n    Faculty of Languages\n        Department of English\n        Department of Myanmar\n    Faculty of Natural Science\n        Department of Physics\n    Information Technology Supporting and Maintenance\n    Management Departments\n    Department of Student Affairs\n    Department of Staff Affairs\n    Department of Operation Division\n    Department of International Relations\n    Department of Finance\n Member lists of various faculties can be viewed at https://www.uit.edu.mm/faculty.html"],
+         "context_set": ""
+        },
+        {"tag": "labs",
+         "patterns": ["How many labs are there", "are there any labs", "about labs in uit"],
+         "responses": ["Teaching Labs\n    K-Lab\n    Physics Lab\n    CISCO Network Lab\n    English Language Lab\n    Hardware Lab\n\nResearch Labs\n    Cloud Computing System (CCS)\n    Data Analysis and Management (DAM)\n    Digital Signal Processing (DSP)\n    Knowledge Engineering (KE)\n    Mathematical Modeling (MM)\n    Natural Language Processing (NLP)\n    Smart Houses (SH)\n    Software Engineering (SE)\n    Traffic Control (TC)\n"],
+         "context_set": ""
+        },
+        {"tag": "research labs",
+         "patterns": ["How many research labs are there", "research labs", "what research do you do?"],
+         "responses": ["Research Labs\n    Cloud Computing System (CCS)\n    Data Analysis and Management (DAM)\n    Digital Signal Processing (DSP)\n    Knowledge Engineering (KE)\n    Mathematical Modeling (MM)\n    Natural Language Processing (NLP)\n    Smart Houses (SH)\n    Software Engineering (SE)\n    Traffic Control (TC)\n"],
+         "context_set": ""
+        },
+        {"tag": "teaching labs",
+         "patterns": ["How many teaching labs are there", "teaching labs"],
+         "responses": ["Teaching Labs\n    K-Lab\n    Physics Lab\n    CISCO Network Lab\n    English Language Lab\n    Hardware Lab\n"],
+         "context_set": ""
+        },
+        {"tag": "k-lab",
+         "patterns": ["what is k lab", "what is korean fab lab", "tell me about klab", "korean laboratory", "what do you teach in k lab", "what does k lab teach"],
+         "responses": ["The Korean Fab- Lab (hereafter reffered to it as K-Lab) is an initiative by the Ministry of Science, ICT and Future Planning of Korea for developing countries. The K-Lab is a space that everyone can make a prototype with his own idea in real by using digital fabrication machines such as Laser Cutter, 3D Printer and CNC router. The K-Lab is just like public library."],
+         "context_set": ""
+        },
+        {"tag": "physics lab",
+         "patterns": ["what is physics lab", "tell me about physics lab", "are there any physics lab", "what do you teach in physics lab", "what does physics lab teach"],
+         "responses": ["During academic year, following experiments have been demonstrated for the first year students at the Physics Laboratory.\n\n    Spectrometer\n    Hooke's Law Experiment\n    Determination of Densities of Liquids Experiment\n    Ohm's Law and Equivalent Resistance\n    Sonometer Experiment\n    Joule's Law Experiment (Electrical Equivalent of Heat)\n    Magnetic Field\n"],
+         "context_set": ""
+        },
+        {"tag": "cisco lab",
+         "patterns": ["what is cisco lab", "tell me about cisco lab", "are there any networking lab", "tell me about networking lab", "what do you teach in networking cisco lab", "what does cisco networking lab teach"],
+         "responses": [" The Faculty of Computer Systems and Technologies (FCST) support the Networking Lab to give the students an understanding of the principles behind the latest advances in computer network technology.\n\nFCST launched the Cisco Network Lab (\"the Cisco Networking Academy Program\"). Through the Academy Program, Cisco Network Lab is provided with the possibility of integrating a curriculum in computer networking that has been developed by Cisco as part of the institution's educational offerings. \n\nThe Aim of Networking Lab\n\n    To learn the networking fundamentals and Infrastructure design\n    To offer equipment and facility to ensure proper use of equipment in Hands-On (practice)\n    To ensure Cisco Networking Academy Student Access\n    To pursue research topics in the broad area of computer communications and networks\n"],
+         "context_set": ""
+        },
+        {"tag": "english lab",
+         "patterns": ["what is english language lab", "tell me about english language lab", "are there any language lab", "tell me about english lab", "what do you teach in english language lab", "what does english language lab teach"],
+         "responses": [" Students can practise listening and speaking activities in this lab. It makes students improve oral communication and the understanding of language, and then UIT holds Debate Competition every year to develop students' speaking skill. Students actively participated in this competition.\n"],
+         "context_set": ""
+        },
+        {"tag": "hardware lab",
+         "patterns": ["what is hardware lab", "tell me about hardware lab", "are there any hardware lab", "what do you teach in hardware lab", "what does hardware lab teach"],
+         "responses": [" Kinds of Lab doing at Hardware Lab\n\n    1. Digital Circuits Lab\n\n    This lab is aimed for 1st Year students to get the practical knowledge for their Digital System Design I and Digital System Design II subjects.\n\n    2. Advanced Digital Circuit Lab\n\n    This lab is aimed for 4th Year (ES) students to design the digital system and understand the respective subject Digital System Design with VHDL.\n\n    3. Analog Circuit Lab\n\n    This lab is aimed for 2nd Year and 3rd Year students to understand the Engineering Circuit and Signals and Systems subjects well in practical approach and to make their own circuits.\n\n    4. Microcontroller Lab\n\n    This lab is aimed for 4th Year (ES) students for knowing Microcontroller Programming and Embedded System Architecture subjects well and make one own design.\n\n    5. Signal Processing Lab\n\n    This lab is aimed for 4th Year (ES) students for Digital Signal Processing subjects and 5th Year (ES) students for Image Processing subjects' practical work.\n\n    6. Control System Lab\n\n    This lab is aimed for 4th Year (ES) students for Modern Control System and Applied Control System subjects' practical work.\n"],
+         "context_set": ""
+        },
+
+
+
+        {"tag": "collaboration",
+         "patterns": ["Who are collaborations of uit", "What universities does uit collaborate with", "What companies does uit collaborate with", "collaboration companies with uit", " collaboration industry with uit", "collaboration universities with uit"],
+         "responses": ["One of the main objectives of UIT is to produce international standard computer professionals and specialists with the collaboration of foreign Universities in research and advanced IT technology.Therefore,the UIT has already promoted not only the international academic cooperation but also local cooperations in the software industry.\n\nThe collaborative organizations provide students and faculty with research, scholar exchange programme, internship for Undergraduate and Post Graduate course, short-term occupational training, exchange of publications and information, and seminars and conferences. Undergrade and Post Graduage course, short-term occupational training, exchange of publications and information and seminars and conferences. UIT has established academic collaboration with the following industries:\n\n    Fujitsu Limited, Japan\n    OAS Corporation Ltd., Japan\n    Cross-border International Education Support Foundation (CIESF), Japan\n    Hitachi Limited, Japan\n    Acroquest Myanmar Co., Ltd., Japan\n    International Electric Vehicle Expo Organizing Committee (IEVEOC) - Korea\n    Myanmar Electrical and Electronic Association-Myanmar\n    Access Spectrum\n\n UIT has established academic collaboration with the following universities:\n\n    Japan Advanced Institute of Science and Technology (JAIST)\n    Saitama University, Japan\n    Nagaoka University of Technology, Japan\n    Okayama University, Japan\n    Aoyama Gakuin University, Japan\n    The Faculty of Engineering, University of the Ryukyus, Japan\n    Graduate School of International Management, International University of Japan (IUJ), Japan\n    Kwangwoon University, Korea\n    Korea Aerospace University, Korea\n    Dongseo University, Korea\n    Busan Digital University, Korea\n    Jeju National University, Korea\n    Suan Sunandha Rajabhat University, Thailand\n    Malaysia University of Science and Technology (MUST), Malaysia\n"],
+         "context_set": ""
+        },
+
+        {"tag": "scholarship",
+         "patterns": ["Is scholarship available", "Are bursaries available", "Are there any scholarship", "How can i apply for scholarship", "do you provide scholarship"],
+         "responses": ["Here at the University of Information Technology, we offers a number of scholarships and bursaries to help students with the cost of their studies. Bursaries are awarded depending on household income, whilst Scholarships are available for a number of areas, and are based on academic excellence. Bursaries and scholarships  are funded by private companies, individuals, and UIT teachers."],
+         "context_set": ""
+        },
+
+        {"tag": "accommodation",
+         "patterns": ["Is accommodation guaranteed", "How much do I pay for rent?", "How can I rent for accommodation", "Do you provide accommodation", "how to apply for accommodation"],
+         "responses": ["Students must ensure that he or she is not a resident within the Yangon area. \nPayment of rent for a semester must be given to the Hall Tutors at the second month of your stay at the hostel.  Currently, rental cost is 5000 kyats per month."],
+         "context_set": ""
+        },
+        {"tag": "contact",
+         "patterns": ["How do i contact", "I want to contact", "What is the phone number", "Where does it located", "Where is uit", "What is the email", "location of uit", "how to contact student's affair", "student's affair phone number", "what is phone number of student's affair"],
+         "responses": ["University of Information Technology, Parami Road, Hlaing Campus, Yangon, The Republic of the Union of Myanmar.\nPhone : 951-9664254\nFax : 951-664250\nEmail : hr.admin@uit.edu.mm"],
+         "context_set": ""
+        },
+        {"tag": "internship",
+         "patterns": ["Are there any internship", "tell me about internship", "foreign internship", "local internship", "internship company", "japan internship"],
+         "responses": ["We are proudly to announce that all 173 final year students of UIT will be able to work in international and local companies as interns during the 4-month period from May to August.\n117 students in 31 local companies, 49 students in japan companies and 7 students in thai bangkok companies."],
+         "context_set": ""
+        },
+
+        {"tag": "entrance list",
+         "patterns": ["Entrance list", "List of entrance students", "Lists of students who have received the entrance to the uni"],
+         "responses": ["Lists of students who have received the entrance to the University of Information Technology(UIT) can be viewed at https://www.uit.edu.mm/2019EntranceList.html"],
+         "context_set": ""
+        },
+
+        {"tag": "website",
+         "patterns": ["website of uit", "what is facebook page of uit", "what is facebook page of student union of uit"],
+         "responses": ["Facebook page of UIT link is https://www.facebook.com/UITMyanmar/?__tn__=%2Cd%2CP-R&eid=ARAn6g4A1h15EjjHILet-lTlOcnmIH_h3KFXO-uO0tCSb_d1p7hnarN2o5PdNzYHIp21dZMR47_DD_XV. Facebook page for Students' Union is https://www.facebook.com/UITStudentsUnion/"],
+         "context_set": ""
+        },
+
+        {"tag": "apply for phd",
+         "patterns": ["How to apply for phd", "Entrance for phd", "I want to apply for phd", "Requirements for phd entrance"],
+         "responses": ["Entrance forms for PhD can be viewed at https://www.uit.edu.mm/PhDEntrance2019-2020.html"],
+         "context_set": ""
+        },
+
+        {"tag": "digital library",
+         "patterns": ["Is there any library", "How to borrow books", "Tell me about uit library", "Digital library", "borrow books at uit library", "tell me about library"],
+         "responses": ["UIT Library is a collection of information and made accessible to a defined community for reference or borrowing. It holds a wide range of material covering all aspects of high quality e-books with access to scholarly literature based on electronic (online) delivery for serving the needs of undergraduates, postgraduates and staffs. Webpage for Digital Library can be viewed at http://uit.bestbookbuddies.com/"],
+         "context_set": ""
+        },
+
+        {"tag": "published paper",
+         "patterns": ["Are there any published paper", "Show me published papers in ICAIT", "ICAIT papers", "Research papers published by uit"],
+         "responses": ["Published papers in ICAIT can be viewed and downloaded from https://www.uit.edu.mm/publishedpapers.html"],
+         "context_set": ""
+        },
+        {"tag": "UIT journey",
+         "patterns": ["Journey of uit", "Tell me about journey of uit", "tell me about uit journey"],
+         "responses": ["UIT 6 years journey can be viewed at https://www.uit.edu.mm/UIT6YearsJourney.html"],
+         "context_set": ""
+        }
+
+
+
+
+]
+}

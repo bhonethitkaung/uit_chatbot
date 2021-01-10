@@ -1,0 +1,992 @@
+body {
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: #000000;
+    background-color: #FFFFFF;
+    line-height: 1.8em;
+    text-align: justify;
+    box-shadow: 2px 2px 5px #808080;
+
+}
+.main {
+    color: #000000;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    display: block;
+    box-shadow: 2px 2px 5px #808080;
+}
+.main {
+    width: 1000px;
+    margin: 0px auto;
+    margin-top: 5px;
+    height: auto;
+    background-color: #e6e6fa;
+    box-shadow: 2px 2px 5px #808080;
+}
+h1, h2, p, ul, ol, li {
+    padding: 0px;
+    margin: 0px;
+}
+.page {
+    width: 1000px;
+    float: left;
+    height:1900px;
+    padding: 0px 0px 0px 0px;
+    background-color: #f2f1eb;
+    box-shadow: 2px 2px 5px #808080;
+}
+/* Hearder Settings */
+.top {
+    background-color: #f2f1eb; /*#f0f8ff*/
+    width: 980px;
+    float: left;
+    padding: 0px 0px 0px 0px;
+}
+.header {
+    width: 1000px;
+    float: left;
+    padding-top: 7px;
+    background-color:#BDC5C4;
+}
+.header-top {
+   /* background-image: url(../img/UITLogo.jpg);*/
+    background-position: left top;
+   	width:1000px;
+    float: left;
+    margin-left: 20px;
+}
+.header-top img{
+	width:120px;
+	height:100px;
+	margin-right: 30px;
+}
+h4.logoh1{
+	font-size:2.3em;
+	color:#008080;
+	margin-top:35px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow: 2px 1px 1px #ffffff;
+
+}
+.header-top span {
+    margin-top: 25px;
+    padding-left: 20px;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.5em;
+    color: #1335fa;
+    float: left;
+    margin-left: 66px;
+    text-align: center;
+    text-shadow: gray 5px 2px 3px;
+}
+
+.header-top p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #878585;
+    float: right;
+    margin-top: 46px;
+    margin-right: 80px;
+}
+.header-img {
+    background-image: url("../images/Degree Program.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 1000px;
+    height: 213px;
+    margin-top: 5px;
+    float: left;
+}
+
+
+/* Main menu settings */
+#centeredmenu {
+    clear: both;
+    float: left;
+    margin: 0;
+    padding: 0;
+    /* border-bottom:1px solid #000;  black line below menu */
+    width: 1000px;
+    height: 40px;
+    font-family: "Zawgyi-One" ,Arial, sans-serif; /* Menu font */
+    font-size: 11px; /* Menu text size */
+    z-index: 1000; /* This makes the dropdown menus appear above the page content below */
+    position: relative;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #009999;
+    background: #009999;
+}
+
+/* Top menu items */
+#centeredmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    position: absolute;
+    /*right:35%; */
+    height: 30px;
+}
+#centeredmenu ul li {
+    margin: 0 0 0 0px;
+    padding-left: 20px;
+    float: left;
+    top: 0px;
+    height: inherit;
+}
+#centeredmenu ul li a,#centeredmenu ul li ul li a{
+    display: block;
+    margin: 0;
+    padding: 10px;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    background: #009999;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 0px #009999;
+    background: #009999;
+    /* border-bottom:1px solid #000;  black line below menu */
+}
+#centeredmenu ul li.active a {
+    color: #000;
+    background: #f2f1eb;
+}
+#centeredmenu ul li a:hover {
+    background: #f2f1eb; /* Top menu items background colour */
+    color: #000;
+
+    /* border-bottom:1px solid #000;  black line below menu */
+}
+#centeredmenu ul li:hover a, #centeredmenu ul li.hover a {/* This line is required for IE 6 and below */
+    background: #f2f1eb; /* Top menu items background colour */
+    color: #000;
+
+
+
+    /* border-bottom:1px solid #000;  black line below menu */
+}
+
+/* Submenu items */
+#centeredmenu ul ul {
+    display: none; /* Sub menus are hiden by default */
+    position: absolute;
+    top: 3em;
+    left: 3;
+    right: auto; /*resets the right:50% on the parent ul */
+    width: auto; /* width of the drop-down menus */
+}
+#centeredmenu  ul ul li ul li
+{  display: none; /* Sub menus are hiden by default */
+    position: absolute;
+    top: 3em;
+    left: 3;
+    right: auto; /*resets the right:50% on the parent ul */
+    width: auto; /* width of the drop-down menus */
+}
+#centeredmenu ul ul li {
+    font-family: "Century Gothic" ,Geneva, sans-serif; /* Menu font */
+    font-size: 18px; /* Menu text size */
+    left: auto; /*resets the left:50% on the parent li */
+    margin: 0; /* Reset the 1px margin from the top menu */
+    clear: left;
+    width: 120%;
+    height: 100%;
+    margin: 0 3 3 3px;
+    padding:3px;
+}
+#centeredmenu ul ul li a, #centeredmenu ul li.active li a, #centeredmenu ul li:hover ul li a, #centeredmenu ul li.hover ul li a {/* This line is required for IE 6 and below */
+    font-size: .8em;
+    font-weight: normal; /* resets the bold set for the top level menu items */
+    background: #f2f1eb;
+    color: #000;
+    line-height: 2em; /* overwrite line-height value from top menu */
+    border-bottom: 0px solid #009999; /* sub menu item horizontal lines */
+}
+#centeredmenu ul ul li a:hover, #centeredmenu ul li.active ul li a:hover, #centeredmenu ul li:hover ul li a:hover, #centeredmenu ul li.hover ul li a:hover {/* This line is required for IE 6 and below */
+    background: #009999; /* Sub menu items background colour */
+    color: #fff;
+}
+
+/* Flip the last submenu so it stays within the page */
+#centeredmenu ul ul.last {
+    left: auto; /* reset left:0; value */
+    right: 10; /* Set right value instead */
+   width:160px;
+
+}
+
+#centeredmenu ul ul li ul.first{
+margin-left:189px;
+top:17px;
+width:130px;
+}
+/* Make the sub menus appear on hover */
+#centeredmenu ul li:hover ul, #centeredmenu ul li.hover ul ,#centeredmenu ul ul li:hover ul li, #centeredmenu ul ul li.hover ul li{/* This line is required for IE 6 and below */
+    display: block; /* Show the sub menus */
+}
+
+/* Main Content Blocks */
+
+.content {
+    /*B5F1F2*/
+    padding-top: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: 1200;
+
+}
+/*Slide Show Img Section*/
+.content-center {
+    width: 750px;
+    height: 450px;
+    margin-top: 0px;
+    float: left;
+
+}
+/* For Slide Show Images*/
+.clear {
+    clear: both
+}
+
+#gallery {
+    position: relative;
+    height: 430px
+}
+#gallery a {
+    float: left;
+    position: absolute;
+}
+
+#gallery a img {
+    border: none;
+}
+
+#gallery a.show {
+    z-index: 500
+}
+
+#gallery .caption {
+    z-index: 600;
+    background-color: #000;
+    color: #ffffff;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#gallery .caption .content {
+    margin: 5px
+}
+
+#gallery .caption .content h3 {
+    margin: 0;
+    padding: 0;
+    color: #1DCCEF;
+}
+
+
+/*End of Slide Show Img Portion in Content-center*/
+
+/*Start Rigth Column , Including Latest News and Announcement */
+.content-right {
+    width: 220px;
+    height: 1700px;
+    float: right;
+    margin-left: 1px;
+    margin-top: 0px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #808080;
+    background: #f2f1eb;
+
+}
+.content-right h4 {
+    /*margin-top: 0px;
+    color: #C63D0F;
+    text-decoration: none;
+    text-align: left;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    padding: 4px;*/
+
+    margin: 0px 0px 14px 0px;
+    padding: 6px 12px;
+    font-size: 1em;
+    line-height: 1.3em;
+    border-bottom: 1px groove #000000;
+
+}
+.content-right #Announce_Container ul li {
+    color: #537869;
+    text-decoration: none;
+    text-align: left;
+    padding: 5px;
+    list-style: square;
+    font-weight: bold;
+    list-style-position: relative;
+    margin-left: 20px;
+    text-align: justify;
+    font-size:12px;
+}
+.content-right #news-container ul li p {
+    color: #009090;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.content-right ul h4 {
+   /*
+    color: #C63D0F;
+       text-decoration: none;
+       text-align: left;
+       border-top: 1px solid #000000;
+       border-bottom: 1px solid #000000;
+       padding: 5px;
+       margin-top: 3px;*/
+
+    margin: 0px 0px 14px 0px;
+    padding: 6px 12px;
+    font-size: 1em;
+    line-height: 1.3em;
+    border-bottom: 1px groove #000000;
+}
+.content-right #news-container ul li a {
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 3px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.content-right #news-container ul li a:hover {
+    color: #0b90d6;
+}
+.content-right #news-container ul {
+    color: #874B46;
+}
+.pictures {
+    width: auto;
+    height: auto;
+}
+.content-left li, .content-right #news-container li {
+    /*background: url(../images/img11.jpg) no-repeat left bottom;*/
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+.content-left li ul, .content-right #news-container li ul {
+    /*background: url(../images/img10.jpg) repeat-y left top;*/
+}
+.content-left ul, .content-right #news-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.content-left li li {
+    margin: 0 10px 0 0px;
+    padding: 8px 0px 8px 10px;
+    border-bottom: 1px #B5B5B5 dashed;
+    /*background: url(../images/bullet.jpg) no-repeat 0 13px;*/
+    text-align: left;
+}
+.content-left li {
+    padding: 0px 0px 20px 0px;
+}
+.content-left li h2 {
+    margin: 0px;
+    /*background: url(../images/img09.jpg) ;*/
+
+    color: #000000;
+    font-size: 14px;
+    height: 25px;
+    padding: 10px 15px 0px 15px;
+    /*background: url(../images/img09.jpg) no-repeat left top;*/
+    color: #333333;
+    text-transform: uppercase;
+}
+.content-right #Announce_Container h4 {
+    margin-top: 45px;
+    background: #e3dfd5;
+    color: #000;
+    padding-left: 0px;
+   /*
+    -webkit-border-radius: 10px;
+       -khtml-border-radius: 10px;
+       -moz-border-radius: 10px;
+       border-radius: 10px;
+       box-shadow: 2px 2px 5px #000000;*/
+
+    text-align: center;
+    max-width: 210px;
+    margin-left: 0px;
+}
+.content-right #Announce_Container ul li p {
+    color: #FFFFFF;
+    font-size: 14px;
+    color: #000000;
+    padding: 5px;
+}
+.content-right h4 {
+    background: #e3dfd5;
+    color: #000;
+   /*
+    -webkit-border-radius: 20px;
+       -khtml-border-radius: 20px;
+       -moz-border-radius: 20px;
+       border-radius: 10px;
+       box-shadow: 2px 2px 5px #000000;*/
+
+    text-align: center;
+    max-width: 210px;
+    margin-left: 0px;
+    margin-top: 3px;
+
+}
+.content-left li {
+    background: url(../images/img11.jpg) no-repeat left bottom;
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+.content-left li ul, .content-right #news-container ul {
+    /*background: url(../images/img10.jpg) repeat-y left top;*/
+}
+
+.content-left ul, .content-right ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.content-left li li, .content-right #news-container li li {
+    margin: 0 10px 0 15px;
+    padding: 8px 0px 8px 20px;
+    border-bottom: 1px #B5B5B5 dashed;
+    /*background: url(../images/bullet.jpg) no-repeat 0 13px;*/
+    text-align: left;
+}
+.content-left li, .content-right #news-container li {
+    padding: 0px 0px 20px 0px;
+}
+.content-left li h2, .content-right #news-container li h2 {
+    margin: 0px;
+    background: url(../images/img09.jpg);
+    font-size: 12px;
+    color: #000000;
+    font-size: 14px;
+    height: 25px;
+    padding: 10px 15px 0px 35px;
+    background: url(../images/img09.jpg) no-repeat left top;
+    color: #333333;
+    text-transform: uppercase;
+}
+/*End Rigth Column , Including Latest News and Announcement */
+
+
+/*  Start Images Slide Bar with Full Page*/
+#uni {
+
+    width: auto;
+    background-color: #f2f1eb;
+    margin-bottom: 5px;
+}
+.covers {
+
+    background-color: #f2f1eb;
+    position: relative;
+    float: left;
+    width: auto;
+    z-index: 1;
+}
+.covers a {
+    background-color: #f2f1eb;
+    margin-top: 1px;
+    height: 100px;
+    padding: 5px;
+    width: auto;
+    margin-left: 15px;
+}
+.covers .control {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+}
+/*  End Images Slide Bar with Full Page*/
+
+/* Footer Style Start*/
+.footer {
+    /*background-image: url(../images/img02.jpg);
+     background-repeat: repeat-x;*/
+    background-position: left top;
+    background-color:#009090;
+    text-align: center;
+    width: 1000px;
+    height: 50px;
+    float: left;
+
+    /*border-radius: 0 0 15px 15px / 0 0 20px 20px;*/
+
+}
+.footer p {
+    font-size: 10px;
+    color: #ffffff;
+}
+.footer #Social_Network_Link p {
+    float: right;
+    padding: 10px;
+    color: #3366FF;
+    font-size: 12px;
+    text-align: center;
+}
+.footer #Modified_Date p {
+    float: left;
+    padding: 10px;
+    color: #3366FF;
+    font-size: 12px;
+    text-align: right;
+}
+
+.bottom_curve {
+    float: left;
+    width: 100%;
+    height: 10px;
+    font-size: 1px;
+    background: url(/images/layout_bottom_curve.png) no-repeat 0 bottom;
+}
+#footer {
+    float: left;
+    width: 100%;
+    padding: 4px 0 20px 0;
+    text-decoration: none;
+}
+#footer .left_sec {
+    float: right;
+    width: 950px;
+    padding: 0 0 0 22px;
+}
+#footer .right_sec {
+    float: right;
+    width: 350px;
+    padding: 0 23px 0 0;
+}
+#footer .right_sec p {
+    text-align: right
+}
+#footer .right_sec ul {
+    float: right;
+    width: auto;
+}
+#footer p {
+    float: left;
+    width: 100%;
+    color: #FDF3E7;
+    font: 11px/14px Arial, Helvetica, sans-serif;
+}
+#footer ul {
+    float: left;
+    width: 100%;
+    list-style: none;
+    padding: 2px 0 0 0;
+}
+#footer ul li {
+    float: left;
+    width: auto;
+    padding: 0 5px 0 4px;
+    background: url(/images/footer_navi_sep.gif) no-repeat right 3px;
+}
+#footer ul li.last {
+    background: none;
+    padding-right: 0;
+}
+#footer ul li a {
+    float: left;
+    width: auto;
+    color: #FFF5E5;
+    text-decoration: none;
+    font: 11px/14px Arial, Helvetica, sans-serif;
+}
+#footer ul li a:hover {
+    text-decoration: underline;
+}
+/* Footer Style End*/
+
+
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+/*  Others CSS Rules */
+
+.content {
+    margin-top: 0px;
+}
+.self {
+    margin-left: 30px;
+    width:100%;
+    height: 800px;
+}
+.self a{
+    margin-left:3px;
+}
+#content_center_main{
+    width:auto;
+}
+#content_center_main .self {
+    margin-left: 5px;
+    width:750;
+    margin-right: 20px;
+}
+#research-mission,#research-goal h4{
+    margin-bottom: 0px;
+    color:#820000;
+}
+#content_center_main  ul{
+    list-style: none;
+}
+/*research page rules */
+.research-goalList,.researchMissionList ul li{
+    color:#000000;
+    list-style-type:circle;
+
+
+}
+#researchGroupLab .research-info-table  table{
+    margin-left:5px;
+
+}
+#researchGroupLab .research-info-table  table tr td h4{
+    padding:0px;
+}
+.self #reseach-info{
+    width:750px;
+    padding:10px;
+    margin-right:20px;
+    height:430px;
+}
+/*research page rules */
+/*admisssion page rules */
+.self #admission-info {
+    width:750px;
+
+
+}
+#admission-info h4{
+    margin-bottom: 0px;
+    color:#820000;
+}
+/* */
+img {
+
+    border: 0px solid #000000;
+}
+
+.odd {
+    background-color: #E3DFD5;
+}
+#news {
+    margin: 30px 0px 0px 50px;
+    width: 500px;
+}
+#Undergraduate_Outer_table{
+    margin-top:0px;
+    margin-left:10px;
+    margin-right:10px;
+      -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #5F6975;
+    background: #cafd99;
+    width:750px;
+
+}
+#Undergraduate_inner_table{
+
+    margin-right:20px;
+      -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #5F6975;
+    background: #e5e5e5;
+    margin-bottom:3px;
+    margin-top:0px;
+    width:730px;
+    margin-left:5px;
+    line-height: 1.7em;
+}
+#Undergraduate_inner_table ul li a{
+    text-decoration: none;
+    color: #000;
+
+}
+#Undergraduate_inner_table ul li a:hover{
+    text-decoration: underline;
+    color: #820000;
+}
+#Program_Info_Table{
+
+    margin-right:20px;
+      -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #5F6975;
+    background: #E5E5E5;
+    width:730px;
+    padding-top:10px;
+    margin-left:5px;
+    line-height: 1.7em;
+}
+#Program_Info_Table ul li {
+    list-style-type:square;
+    margin-left:20px;
+}
+div #Academin_Info {
+    margin-right:20px;
+      -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #5F6975;
+    background: #e5e5e5;
+    margin-bottom:3px;
+    margin-top:0px;
+    margin-left:10px;
+    width:720px;
+    margin-left:10px;
+}
+#AcdemicInfo_inner_table {
+    margin-right:20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #5F6975;
+    background: #e5e5e5;
+    margin-bottom:3px;
+    margin-top:0px;
+    margin-left:10px;
+    width:720px;
+    margin-left:10px;
+}
+#Academin_Info h4{
+
+    margin-bottom: 0px;
+    color:#820000;
+}
+
+#AcdemicInfo_inner_table ul li a{
+    text-decoration: none;
+    color: #000;
+
+}
+#AcdemicInfo_inner_table ul li a:hover{
+    text-decoration: underline;
+    color: #820000;
+}
+/*News and Event page rules */
+.NewsEeventsInfoTablen{
+    margin-right:10px;
+    color:#820000;
+}
+
+.NewsEeventsInfoTable   a{
+    text-decoration: none;
+    color: #820000;
+
+}
+.NewsEeventsInfoTable  a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+/*News and Event page rules */
+/*Faculty Pages Rules*/
+.depttbl {
+    width:750px;
+    margin-right:30px;
+    margin-left:10px;
+}
+.depttbl ul li{
+    margin-left:20px;
+    list-style-type: circle;
+    line-height: 1.75em;
+}
+.depttbl  a{
+    margin-left:10px;
+    color: #820000;
+    text-decoration:none;
+}
+.depttbl  a:hover{
+
+    color: #820000;
+    text-decoration:underline;
+}
+/*Faculty Pages Rules*/
+/* FAQs by khamlay */
+#id{
+    width:720px;
+    padding:10px;
+}
+#id ul li{
+    text-align: justify;
+    font-weight:bold;
+}
+/* Contact Us by khamlay */
+.contact{
+    height:600px;
+    margin-top:10px;
+}
+.contact img{
+ margin-left:3px;
+ border:2px solid #000000;
+}
+/* Fresher Welcome.html by khamlay */
+.fresher{
+border:0px solid #000000;
+padding:10px;
+margin-top:5px;
+}
+.fresher ul li a{
+text-decoration: none;
+font-size: 14px;
+
+}
+.fresher img{
+border:2px solid #671011;
+margin-right: 50px;
+margin-top:30px;
+}
+/* Fundamental Course by khamlay */
+.course{
+height:600px;
+border:1px solid #000000;
+}
+/* GraduateAdmission by khamlay */
+.graduate{
+    border: 0px solid #000000;
+    margin: 10px 10px 0px 5px;
+}
+.graduate ul li{
+    margin-left:10px;
+}
+/* Moonson Planting Tree by khamlay */
+.moonson{
+    margin: 5px;
+    padding: 2px;
+}
+.moonson a{
+    text-decoration: none;
+    color:#671011;
+}
+.moonson a:hover{
+
+    color:#0B90D6;
+}
+.moonson ul{
+    margin-left: 30px;
+}
+.moonson p{
+    margin-bottom: 5px;
+}
+/* 2013-2014 / 2012-2013 Moonson Tree Planting Ceremory */
+.tree{
+    margin:10px;
+    height: auto;
+}
+.tree h2{
+    margin-top:10px ;
+    padding:5px;
+}
+.tree img{
+    border:3px solid #ffffff;
+    width:180px;
+    height: 150px;
+}
+.tableTree{
+    margin-bottom:5px;
+    margin-right: 10px;
+
+}
+.tableTree td{
+    font-size: 12px;
+    font-weight: bold;
+    font-variant:inherit;
+    color:#191919;
+    padding: 5px;
+}
+.tree a{
+    text-decoration: none;
+    color:#671011;
+    margin-top:10px;
+}
+
+.tree a:hover{
+    color:#537869;
+    text-decoration: underline;
+}
+.ActivityYearList ul {
+    list-style-type: circle;
+    color:#820000;
+}
+.ActivityYearList a {
+    text-decoration: none;
+    color: #820000;
+
+}
+.ActivityYearList a:hover {
+
+    color: #0B90D6;
+
+}
+.centermain-navlink a {
+    font-size:13px;
+    text-decoration: none;
+    color:#009090;
+}
+.centermain-navlink a:hover {
+    font-size:13px;
+    text-decoration: none;
+    color:#0B90D6;
+}
+.AwardList{
+    font-family: "Bookman Old Style",sans-serif;
+    font-size:12px;
+}
+.AwardList a{
+    color:#820000;
+}
+.AwardList a:hover{
+    color:#0B90D6;
+    text-decoration:underline;
+}
+.FAQ-question{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:5px;
+}
+.FAQ-question ul li {
+    margin-bottom:5px;
+}
+
+
+/* Event.html */
+.event {
+    text-decoration: none;
+    color: #820000;
+    }
+a:hover{
+    color: #1DCCEF;
+}
+/* End Event.html */
+
+/*///////////////////////////////////////////*/
